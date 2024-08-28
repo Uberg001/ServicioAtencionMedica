@@ -28,7 +28,7 @@ public class PersonaVulnerableController {
         return personaVulnerableService.getUserById(userId);
     }
 
-    @PostMapping
+    @PostMapping("/create")
     public PersonaVulnerable createUser(@RequestBody PersonaVulnerable personaVulnerable) {
         return personaVulnerableService.createUser(personaVulnerable);
     }

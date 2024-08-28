@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92ef391d-0e02-42d1-a71c-2d7c6b69c25e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/entity/Coordenada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/entity/Direccion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/entity/Documento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/entity/Localidad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/entity/Partido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/entity/Provincia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/entity/TipoDocumento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/repository/CoordenadaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/repository/LocalidadRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/repository/PartidoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/repository/ProvinciaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/entity/PersonaVulnerable.java" beforeDir="false" afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/entity/PersonaVulnerable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/service/PersonaVulnerableServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/service/PersonaVulnerableServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/ParaProbarLosEndpointsEnPostman" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/controller/PersonaVulnerableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/controller/PersonaVulnerableController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +97,7 @@
       <workItem from="1724814475477" duration="4340000" />
       <workItem from="1724819273203" duration="692000" />
       <workItem from="1724846689876" duration="635000" />
-      <workItem from="1724849001270" duration="2684000" />
+      <workItem from="1724849001270" duration="2898000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,33 @@
+
+http://localhost:8080/api/ServicioAtencionMedica/create
+POST --> Crear un nuevo usuario
+
+
+Body > raw > JSON
+
+{
+    "firstName": "Juan",
+    "lastName": "Perez",
+    "email": "juan.perez@example.com",
+    "documento": {
+        "tipo": "DNI",
+        "numero": "12345678"
+    },
+    "domicilio": {
+        "calle": "Calle Falsa",
+        "altura": 123,
+        "localidad": {
+            "nombre": "Localidad Ejemplo",
+            "partido": {
+                "nombre": "Partido Ejemplo",
+                "provincia": {
+                    "nombre": "Provincia Ejemplo"
+                }
+            }
+        },
+        "coordenada": {
+            "latitud": 12.345678,
+            "longitud": 98.765432
+        }
+    }
+}
