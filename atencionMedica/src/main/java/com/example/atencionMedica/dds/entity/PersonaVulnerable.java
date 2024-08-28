@@ -5,15 +5,12 @@ import lombok.*;
 
 @Data
 @Entity
-@Table(name = "users")
+@Table(name = "PersonaVulnerable")
 public class PersonaVulnerable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
-
-    @Column(name = "dni")
-    private String dni;
 
 
     @Column(name = "first_name")
@@ -24,11 +21,6 @@ public class PersonaVulnerable {
 
     @Column(name = "email")
     private String email;
-
-    public PersonaVulnerable() {
-
-    }
-
 
 
 }
