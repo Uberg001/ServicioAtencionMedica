@@ -5,11 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92ef391d-0e02-42d1-a71c-2d7c6b69c25e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/dto/LocalidadReportDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dto/CoordenadaDTOEntrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dto/DireccionDTOEntrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dto/DocumentoDTOEntrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dto/LocalidadDTOEntrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dto/PartidoDTOEntrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dto/PersonaVulnerableDTOEntrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dto/ProvinciaDTOEntrada.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/controller/PersonaVulnerableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/controller/PersonaVulnerableController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/service/PersonaVulnerableService.java" beforeDir="false" afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/service/PersonaVulnerableService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/service/PersonaVulnerableServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/service/PersonaVulnerableServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/ParaProbarLosEndpointsEnPostman" beforeDir="false" afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/ParaProbarLosEndpointsEnPostman" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/controller/PersonaVulnerableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/controller/PersonaVulnerableController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/dto/LocalidadReportDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dto/LocalidadReportDTOSalida.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/entity/Coordenada.java" beforeDir="false" afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/entity/Coordenada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/entity/Direccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/entity/Direccion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/entity/Documento.java" beforeDir="false" afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/entity/Documento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/entity/Localidad.java" beforeDir="false" afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/entity/Localidad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/entity/Partido.java" beforeDir="false" afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/entity/Partido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/entity/PersonaVulnerable.java" beforeDir="false" afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/entity/PersonaVulnerable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/entity/Provincia.java" beforeDir="false" afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/entity/Provincia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/entity/TipoDocumento.java" beforeDir="false" afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/entity/TipoDocumento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/exception/ErrorDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/exception/ErrorDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/repository/CoordenadaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/repository/CoordenadaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/repository/LocalidadRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/repository/LocalidadRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/repository/PartidoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/repository/PartidoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/repository/PersonaVulnerableRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/repository/PersonaVulnerableRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/repository/ProvinciaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/repository/ProvinciaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/service/PersonaVulnerableService.java" beforeDir="false" afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/service/PersonaVulnerableService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/dds/service/PersonaVulnerableServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/atencionMedica/src/main/java/com/example/atencionMedica/service/PersonaVulnerableServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,36 +60,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.atencionMedica [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.atencionMedica [install].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.AtencionMedicaApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Unnamed.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Facultad/2024/Diseño/TP ANUAL/atencionMedica-DdS-Api/atencionMedica/src/main/java/com/example/atencionMedica/dds/services&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.atencionMedica [clean].executor": "Run",
+    "Maven.atencionMedica [install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.AtencionMedicaApplication.executor": "Run",
+    "Spring Boot.Unnamed.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Facultad/2024/Diseño/TP ANUAL/atencionMedica-DdS-Api/atencionMedica/src/main/java/com/example/atencionMedica/dds/services",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.atencionMedica.dto" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Facultad\2024\Diseño\TP ANUAL\atencionMedica-DdS-Api\atencionMedica\src\main\java\com\example\atencionMedica\dds\services" />
       <recent name="D:\Facultad\2024\Diseño\TP ANUAL\atencionMedica-DdS-Api\atencionMedica\src\main\java\com\example\atencionMedica\dds\exception" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Facultad\2024\Diseño\TP ANUAL\atencionMedica-DdS-Api\atencionMedica\src\main\java\com\example\atencionMedica" />
     </key>
   </component>
   <component name="RunManager">
@@ -100,7 +132,7 @@
       <workItem from="1724814475477" duration="4340000" />
       <workItem from="1724819273203" duration="692000" />
       <workItem from="1724846689876" duration="635000" />
-      <workItem from="1724849001270" duration="6463000" />
+      <workItem from="1724849001270" duration="16228000" />
     </task>
     <servers />
   </component>
