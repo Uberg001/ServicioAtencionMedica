@@ -1,3 +1,4 @@
+// src/main/java/com/example/atencionMedica/dds/entity/PersonaVulnerable.java
 package com.example.atencionMedica.dds.entity;
 
 import jakarta.persistence.*;
@@ -12,7 +13,6 @@ public class PersonaVulnerable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
-
     @Column(name = "first_name")
     private String firstName;
 
@@ -22,5 +22,11 @@ public class PersonaVulnerable {
     @Column(name = "email")
     private String email;
 
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "documento_id", referencedColumnName = "id")
+    private Documento documento;
 
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "domicilio_id", referencedColumnName = "id")
+    private Direccion domicilio;
 }
