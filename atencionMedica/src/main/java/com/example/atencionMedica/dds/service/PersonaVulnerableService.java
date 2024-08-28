@@ -1,6 +1,7 @@
 package com.example.atencionMedica.dds.service;
 
 
+import com.example.atencionMedica.dds.dto.LocalidadReportDTO;
 import com.example.atencionMedica.dds.entity.PersonaVulnerable;
 
 import java.util.List;
@@ -11,4 +12,6 @@ public interface PersonaVulnerableService {
     PersonaVulnerable createUser(PersonaVulnerable personaVulnerable);
     PersonaVulnerable updateUser(long userId, PersonaVulnerable personaVulnerable);
     void deleteUser(long userId);
+    void deleteAllUsers();
+    List<LocalidadReportDTO> obtenerReporteLocalidades();
 }

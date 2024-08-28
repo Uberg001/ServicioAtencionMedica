@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import com.example.atencionMedica.dds.entity.PersonaVulnerable;
 import com.example.atencionMedica.dds.service.PersonaVulnerableService;
-
+import com.example.atencionMedica.dds.dto.LocalidadReportDTO;
 
 
 @RestController
@@ -42,5 +42,16 @@ public class PersonaVulnerableController {
     public ResponseEntity<PersonaVulnerable> deleteUser(@PathVariable("id") long userId) {
         personaVulnerableService.deleteUser(userId);
         return ResponseEntity.ok().build();
+    }
+
+    @DeleteMapping("/deleteAll")
+    public ResponseEntity<Void> deleteAllUsers() {
+        personaVulnerableService.deleteAllUsers();
+        return ResponseEntity.ok().build();
+    }
+
+    @GetMapping("/reporteLocalidades")
+    public List<LocalidadReportDTO> obtenerReporteLocalidades() {
+        return personaVulnerableService.obtenerReporteLocalidades();
     }
 }
