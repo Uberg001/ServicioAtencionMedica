@@ -5,7 +5,11 @@ import com.example.atencionMedica.dds.dto.LocalidadReportDTO;
 import com.example.atencionMedica.dds.entity.*;
 import com.example.atencionMedica.dds.exception.*;
 import com.example.atencionMedica.dds.repository.*;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -15,6 +19,7 @@ import java.util.stream.Collectors;
 
 @Service
 public class PersonaVulnerableServiceImpl implements PersonaVulnerableService {
+    private static final Logger logger = LoggerFactory.getLogger(PersonaVulnerableService.class);
 
     @Autowired
     private PersonaVulnerableRepository personaVulnerableRepository;
@@ -112,5 +117,12 @@ public class PersonaVulnerableServiceImpl implements PersonaVulnerableService {
             reporte.add(new LocalidadReportDTO(localidadNombre, cantidadPersonas, nombresPersonas));
         }
         return reporte;
+    }
+
+    //Metodo para la ejecucion diaria del servicio
+    @Scheduled(cron = "0 * * * * *")
+    public void ejecutarReporteDiario(){
+        logger.info("Ejecutando reporte");
+        obtenerReporteLocalidades();
     }
 }
