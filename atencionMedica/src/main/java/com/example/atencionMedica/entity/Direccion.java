@@ -8,11 +8,7 @@ import org.hibernate.annotations.Cascade;
 @Data
 @Entity
 @Table(name = "Direccion")
-public class Direccion {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
+public class Direccion extends Persistente {
 
     @Column(name = "calle")
     private String calle;
@@ -20,13 +16,9 @@ public class Direccion {
     @Column(name = "altura")
     private int altura;
 
-    @ManyToOne
-    @JoinColumn(name = "localidad_id", referencedColumnName = "id")
-    @Cascade(org.hibernate.annotations.CascadeType.ALL)
+    @Embedded
     private Localidad localidad;
 
-    @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "coordenada_id", referencedColumnName = "id")
-    @Cascade(org.hibernate.annotations.CascadeType.ALL)
+    @Embedded
     private Coordenada coordenada;
 }

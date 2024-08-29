@@ -4,13 +4,8 @@ import jakarta.persistence.*;
 import lombok.*;
 
 @Data
-@Entity
-@Table(name = "Provincia")
-public class Provincia {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
+@Embeddable
+public class Provincia extends Persistente{
 
     @Column(name = "nombre")
     private String nombre;

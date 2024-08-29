@@ -5,19 +5,12 @@ import lombok.*;
 import org.hibernate.annotations.Cascade;
 
 @Data
-@Entity
-@Table(name = "Localidad")
-public class Localidad {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
+@Embeddable
+public class Localidad extends Persistente {
 
     @Column(name = "nombre")
     private String nombre;
 
-    @ManyToOne
-    @JoinColumn(name = "partido_id", referencedColumnName = "id")
-    @Cascade(org.hibernate.annotations.CascadeType.ALL)
+    @Embedded
     private Partido partido;
 }

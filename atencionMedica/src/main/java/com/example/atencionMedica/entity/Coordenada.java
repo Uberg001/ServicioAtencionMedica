@@ -6,13 +6,9 @@ import lombok.*;
 import java.math.BigDecimal;
 
 @Data
-@Entity
+@Embeddable
 @Table(name = "Coordenada")
-public class Coordenada {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
+public class Coordenada extends Persistente {
 
     @Column(name = "latitud")
     private BigDecimal latitud;

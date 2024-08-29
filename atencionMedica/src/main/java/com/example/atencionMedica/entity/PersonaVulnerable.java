@@ -1,4 +1,3 @@
-// src/main/java/com/example/atencionMedica/dds/entity/PersonaVulnerable.java
 package com.example.atencionMedica.entity;
 
 import jakarta.persistence.*;
@@ -8,11 +7,7 @@ import org.hibernate.annotations.Cascade;
 @Data
 @Entity
 @Table(name = "PersonaVulnerable")
-public class PersonaVulnerable {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
-    private long id;
+public class PersonaVulnerable extends Persistente {
 
     @Column(name = "first_name")
     private String firstName;

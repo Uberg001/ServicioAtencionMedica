@@ -7,11 +7,7 @@ import org.hibernate.annotations.Cascade;
 @Data
 @Entity
 @Table(name = "Documento")
-public class Documento {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
+public class Documento extends Persistente {
 
     @Enumerated(EnumType.STRING)
     @Column(name = "tipo")
