@@ -6,28 +6,112 @@ POST --> Crear un nuevo usuario
 Body > raw > JSON
 
 {
-    "firstName": "Juan",
-    "lastName": "Perez",
-    "email": "juan.perez@example.com",
-    "documento": {
-        "tipo": "DNI",
-        "numero": "12345678"
+  "firstName": "Diego",
+  "lastName": "Maradona",
+  "email": "diegomardona@example.com",
+  "documentoDTOEntrada": {
+    "tipo": "DNI",
+    "numero": "15456987"
+  },
+  "domicilioDTOEntrada": {
+    "calle": "Segurola y Habana",
+    "altura": 4310,
+    "coordenadaDTOEntrada": {
+      "latitud": 52.345678,
+      "longitud": 48.765432
     },
-    "domicilio": {
-        "calle": "Calle Falsa",
-        "altura": 123,
-        "localidad": {
-            "nombre": "Localidad Ejemplo",
-            "partido": {
-                "nombre": "Partido Ejemplo",
-                "provincia": {
-                    "nombre": "Provincia Ejemplo"
-                }
-            }
-        },
-        "coordenada": {
-            "latitud": 12.345678,
-            "longitud": 98.765432
+    "localidadDTOEntrada": {
+      "nombre": "Capital Federal",
+      "partidoDTOEntrada": {
+        "nombre": "Villa Devoto",
+        "provinciaDTOEntrada": {
+          "nombre": "Capital Federal"
         }
+      }
     }
+  }
+}
+
+
+{
+  "firstName": "Lucas",
+  "lastName": "Sarappa",
+  "email": "lucassarappa@example.com",
+  "documentoDTOEntrada": {
+    "tipo": "DNI",
+    "numero": "42720957"
+  },
+  "domicilioDTOEntrada": {
+    "calle": "Segurola y Habana",
+    "altura": 4286,
+    "coordenadaDTOEntrada": {
+      "latitud": 50.345678,
+      "longitud": 40.765432
+    },
+    "localidadDTOEntrada": {
+      "nombre": "Capital Federal",
+      "partidoDTOEntrada": {
+        "nombre": "Villa Devoto",
+        "provinciaDTOEntrada": {
+          "nombre": "Capital Federal"
+        }
+      }
+    }
+  }
+}
+
+
+
+{
+  "firstName": "Damian",
+  "lastName": "Betular",
+  "email": "elbetu123@example.com",
+  "documentoDTOEntrada": {
+    "tipo": "DNI",
+    "numero": "18598745"
+  },
+  "domicilioDTOEntrada": {
+    "calle": "Mercedes",
+    "altura": 3900,
+    "coordenadaDTOEntrada": {
+      "latitud": 54.345678,
+      "longitud": 41.765432
+    },
+    "localidadDTOEntrada": {
+      "nombre": "Capital Federal",
+      "partidoDTOEntrada": {
+        "nombre": "Villa Devoto",
+        "provinciaDTOEntrada": {
+          "nombre": "Capital Federal"
+        }
+      }
+    }
+  }
+}
+
+{
+  "firstName": "Enrique",
+  "lastName": "Bochini",
+  "email": "elbocha1234@example.com",
+  "documentoDTOEntrada": {
+    "tipo": "DNI",
+    "numero": "987745"
+  },
+  "domicilioDTOEntrada": {
+    "calle": "Av coronel pringles",
+    "altura": 4567,
+    "coordenadaDTOEntrada": {
+      "latitud": 84.345678,
+      "longitud": 31.765432
+    },
+    "localidadDTOEntrada": {
+      "nombre": "Provincia de Buenos Aires",
+      "partidoDTOEntrada": {
+        "nombre": "Avellaneda",
+        "provinciaDTOEntrada": {
+          "nombre": "Provincia de Buenos Aires"
+        }
+      }
+    }
+  }
 }

@@ -6,9 +6,9 @@ import org.hibernate.annotations.Cascade;
 
 @Data
 @Embeddable
-public class Localidad extends Persistente {
+public class Localidad {
 
-    @Column(name = "nombre")
+    @Column(name = "nombre_localidad")
     private String nombre;
 
     @Embedded

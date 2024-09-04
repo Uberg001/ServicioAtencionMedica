@@ -1,6 +1,6 @@
 package com.example.atencionMedica.dto;
 
-import lombok.Data;
+import lombok.*;
 
 import java.math.BigDecimal;
 

@@ -8,7 +8,7 @@ import java.math.BigDecimal;
 @Data
 @Embeddable
 @Table(name = "Coordenada")
-public class Coordenada extends Persistente {
+public class Coordenada {
 
     @Column(name = "latitud")
     private BigDecimal latitud;

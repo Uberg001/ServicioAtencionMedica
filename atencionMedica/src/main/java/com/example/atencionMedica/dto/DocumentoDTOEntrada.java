@@ -1,7 +1,6 @@
 package com.example.atencionMedica.dto;
 
-import com.example.atencionMedica.entity.TipoDocumento;
-import lombok.Data;
+import lombok.*;
 
 @Data
 public class DocumentoDTOEntrada {

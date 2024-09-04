@@ -5,8 +5,8 @@ import lombok.*;
 
 @Data
 @Embeddable
-public class Provincia extends Persistente{
+public class Provincia {
 
-    @Column(name = "nombre")
+    @Column(name = "nombre_provincia")
     private String nombre;
 }

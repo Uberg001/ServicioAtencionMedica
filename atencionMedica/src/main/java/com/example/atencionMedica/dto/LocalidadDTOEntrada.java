@@ -1,7 +1,6 @@
 package com.example.atencionMedica.dto;
 
-import com.example.atencionMedica.entity.Partido;
-import lombok.Data;
+import lombok.*;
 
 @Data
 public class LocalidadDTOEntrada {

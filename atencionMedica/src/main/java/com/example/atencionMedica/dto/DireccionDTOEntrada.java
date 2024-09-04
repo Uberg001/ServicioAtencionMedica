@@ -1,7 +1,6 @@
 package com.example.atencionMedica.dto;
 
-import com.example.atencionMedica.entity.Coordenada;
-import lombok.Data;
+import lombok.*;
 
 @Data
 

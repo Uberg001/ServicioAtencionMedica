@@ -7,9 +7,9 @@ import org.hibernate.annotations.Cascade;
 @Data
 @Embeddable
 @Table(name = "Partido")
-public class Partido extends Persistente {
+public class Partido {
 
-    @Column(name = "nombre")
+    @Column(name = "nombre_partido")
     private String nombre;
 
     @Embedded
