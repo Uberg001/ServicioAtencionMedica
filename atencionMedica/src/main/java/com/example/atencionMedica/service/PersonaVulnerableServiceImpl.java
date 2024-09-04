@@ -1,9 +1,7 @@
 // src/main/java/com/example/atencionMedica/dds/service/PersonaVulnerableServiceImpl.java
 package com.example.atencionMedica.service;
 
-import com.example.atencionMedica.dto.DireccionDTOEntrada;
-import com.example.atencionMedica.dto.LocalidadReportDTOSalida;
-import com.example.atencionMedica.dto.PersonaVulnerableDTOEntrada;
+import com.example.atencionMedica.dto.*;
 import com.example.atencionMedica.entity.*;
 import com.example.atencionMedica.repository.*;
 import com.example.atencionMedica.exception.ResourceNotFoundException;
@@ -105,10 +103,12 @@ public class PersonaVulnerableServiceImpl implements PersonaVulnerableService {
             String localidadNombre = entry.getKey();
             List<PersonaVulnerable> personasEnLocalidad = entry.getValue();
             long cantidadPersonas = personasEnLocalidad.size();
-            List<String> nombresPersonas = personasEnLocalidad.stream()
-                    .map(p -> p.getFirstName() + " " + p.getLastName())
+            List<PersonaConCoordenadaDTOSalida> personasConCoordenadas = personasEnLocalidad.stream()
+                    .map(p -> new PersonaConCoordenadaDTOSalida(
+                            p.getFirstName() + " " + p.getLastName(),
+                            modelMapper.map(p.getDireccion().getCoordenada(), CoordenadaDTOEntrada.class)))
                     .collect(Collectors.toList());
-            reporte.add(new LocalidadReportDTOSalida(localidadNombre, cantidadPersonas, nombresPersonas));
+            reporte.add(new LocalidadReportDTOSalida(localidadNombre, cantidadPersonas, personasConCoordenadas));
         }
         return reporte;
     }

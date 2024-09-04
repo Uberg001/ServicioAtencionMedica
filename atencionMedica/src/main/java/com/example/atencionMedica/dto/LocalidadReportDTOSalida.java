@@ -1,7 +1,6 @@
 package com.example.atencionMedica.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.*;
 
 import java.util.List;
 
@@ -10,5 +9,5 @@ import java.util.List;
 public class LocalidadReportDTOSalida {
     private String localidadNombre;
     private long cantidadPersonas;
-    private List<String> nombresPersonas;
+    private List<PersonaConCoordenadaDTOSalida> personasConCoordenadas;
 }
