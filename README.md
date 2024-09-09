@@ -144,7 +144,7 @@ La ejecución del presente servicio retorna una lista de las localidades con la 
     * 200: OK
     * 404: NOT FOUND
     * 500: INTERNAL SERVER ERROR
-* /api/ServicioAtencionMedica/reporteLocalidades [GET] (lista de todas las personas dadas de alta)
+* /api/ServicioAtencionMedica [GET] (lista de todas las personas dadas de alta)
   * Estados:
     * 200: OK
     * 404: NOT FOUND
@@ -285,3 +285,16 @@ La ejecución del presente servicio retorna una lista de las localidades con la 
     }
   ]
   ```
+  * /api/ServicioAtencionMedica/reporteLocalidades [GET] (lista de todas las localidades)
+  * Estados:
+    * 200: OK
+    * 404: NOT FOUND
+    * 500: INTERNAL SERVER ERROR
+  ```
+  [
+  {"localidadNombre":"Localidad Ejemplo",
+  "cantidadPersonas":3,
+  "nombresPersonas":["Juan Perez","Juan Perez","Juan Perez"]}
+  ]
+  ```
+  
